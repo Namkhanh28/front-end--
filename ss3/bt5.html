@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Đăng ký tham gia nhóm</title>
+  </head>
+  <body>
+    <form>
+      <table cellpadding="6">
+        <tr>
+          <td><b>Họ và tên:</b></td>
+          <td><input type="text" name="hoten" /></td>
+        </tr>
+
+        <tr>
+          <td><b>Ngày sinh:</b></td>
+          <td><input type="date" name="ngaysinh" /></td>
+        </tr>
+
+        <tr>
+          <td><b>Giới tính:</b></td>
+          <td>
+            <input type="radio" name="gioitinh" value="Nam" /> Nam
+            <input type="radio" name="gioitinh" value="Nu" /> Nữ
+          </td>
+        </tr>
+
+        <tr>
+          <td><b>Số điện thoại:</b></td>
+          <td><input type="tel" name="sdt" /></td>
+        </tr>
+
+        <tr>
+          <td><b>Email:</b></td>
+          <td><input type="email" name="email" /></td>
+        </tr>
+
+        <tr>
+          <td><b>Địa chỉ:</b></td>
+          <td><textarea rows="3" cols="30"></textarea></td>
+        </tr>
+
+        <tr>
+          <td><b>Vai trò trong nhóm:</b></td>
+          <td>
+            <select name="vaitro">
+              <option>Thành viên</option>
+              <option>Nhóm trưởng</option>
+              <option>Phó nhóm</option>
+            </select>
+          </td>
+        </tr>
+
+        <tr>
+          <td><b>Sở thích:</b></td>
+          <td><input type="text" name="sothich" /></td>
+        </tr>
+
+        <tr>
+          <td><b>Kỹ năng:</b></td>
+          <td><textarea rows="3" cols="30"></textarea></td>
+        </tr>
+
+        <tr>
+          <td><b>Thời gian rảnh:</b></td>
+          <td>
+            <input type="checkbox" /> Sáng <input type="checkbox" /> Chiều
+            <input type="checkbox" /> Tối
+          </td>
+        </tr>
+
+        <tr>
+          <td><b>Lý do tham gia nhóm:</b></td>
+          <td><textarea rows="3" cols="30"></textarea></td>
+        </tr>
+
+        <tr>
+          <td><b>Màu yêu thích:</b></td>
+          <td><input type="color" name="mauyeuthich" /></td>
+        </tr>
+
+        <tr>
+          <td><b>Đăng ký nhận bản tin:</b></td>
+          <td><input type="checkbox" /> Có</td>
+        </tr>
+
+        <tr>
+          <td><b>Nhận thông báo qua:</b></td>
+          <td>
+            <input type="checkbox" value="Email" /> Email
+            <input type="checkbox" value="SMS" /> SMS
+          </td>
+        </tr>
+
+        <tr>
+          <td></td>
+          <td>
+            <button type="submit">Gửi đăng ký</button>
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>

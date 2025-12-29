@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Form thông tin công dân</title>
+  </head>
+  <body>
+    <h2>THÔNG TIN CÔNG DÂN</h2>
+
+    <form>
+      <div class="row">
+        <label>Họ và tên:</label>
+        <input type="text" />
+      </div>
+
+      <div class="row">
+        <label>Ngày sinh:</label>
+        <input type="date" />
+      </div>
+
+      <div class="row">
+        <label>Giới tính:</label>
+        <input type="radio" name="gender" /> Nam
+        <input type="radio" name="gender" /> Nữ
+      </div>
+
+      <div class="row">
+        <label>Số căn cước công dân:</label>
+        <input type="text" />
+      </div>
+
+      <div class="row">
+        <label>Ngày cấp:</label>
+        <input type="date" />
+      </div>
+
+      <div class="row">
+        <label>Nơi cấp:</label>
+        <input type="text" />
+      </div>
+
+      <div class="row">
+        <label>Số điện thoại:</label>
+        <input type="text" />
+      </div>
+
+      <div class="row">
+        <label>Email:</label>
+        <input type="email" />
+      </div>
+
+      <div class="row">
+        <label>Địa chỉ thường trú:</label>
+        <textarea rows="3"></textarea>
+      </div>
+
+      <div class="row">
+        <label>Địa chỉ tạm trú:</label>
+        <textarea rows="3"></textarea>
+      </div>
+
+      <div class="row">
+        <label>Loại căn cước công dân:</label>
+        <input type="radio" name="cccd" /> Căn cước công dân mới
+        <input type="radio" name="cccd" /> Căn cước công dân cũ
+      </div>
+
+      <div class="row">
+        <label>Dân tộc:</label>
+        <input type="text" />
+      </div>
+
+      <div class="row">
+        <label>Tôn giáo:</label>
+        <input type="text" />
+      </div>
+
+      <div class="row">
+        <label>Quốc tịch:</label>
+        <input type="text" value="Việt Nam" />
+      </div>
+
+      <div class="row">
+        <label>Họ tên cha/mẹ:</label>
+        <input type="text" />
+      </div>
+
+      <div class="row">
+        <label>Số CMND/CCCD của cha/mẹ:</label>
+        <input type="text" />
+      </div>
+
+      <div class="row">
+        <label>Tỉnh/Thành phố:</label>
+        <select>
+          <option>Chọn Tỉnh/Thành phố</option>
+          <option>Hà Nội</option>
+          <option>TP Hồ Chí Minh</option>
+          <option>Đà Nẵng</option>
+        </select>
+      </div>
+
+      <div class="row">
+        <button type="submit">Gửi thông tin</button>
+      </div>
+    </form>
+  </body>
+</html>
