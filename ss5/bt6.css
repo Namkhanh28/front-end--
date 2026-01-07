@@ -1,0 +1,44 @@
+ * {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    h2 {
+      color: #1e90ff;
+      margin: 30px 0 20px;
+    }
+    .doctor-section {
+      background-color: #eaf8ff;
+      padding: 30px 0;
+    }
+    .doctor-card {
+      max-width: 200px;
+      margin: auto;
+    }
+
+    .doctor-card img {
+      width: 180px;
+      height: auto;
+      border-radius: 4px;
+      
+    }
+    .doctor-name {
+      color: #1e90ff;
+      font-size: 20px;
+      font-weight: bold;
+      margin-top: 15px;
+    }
+
+    .doctor-specialty {
+      color: #333;
+      margin-top: 5px;
+    }
+    .service-section {
+      padding: 30px 0;
+    }
+
+    .service-list p {
+      margin: 10px 0;
+      font-size: 16px;
+    }

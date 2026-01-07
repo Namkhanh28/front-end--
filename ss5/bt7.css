@@ -1,0 +1,37 @@
+  body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      background-color: #f6f8fb;
+    }
+    .main-title {
+      color: #1e90ff;
+      font-size: 28px;
+      font-weight: bold;
+      margin-top: 30px;
+    }
+    .subtitle {
+      color: #1e90ff;
+      margin: 10px 0 30px;
+    }
+    .clinic-image img {
+      width: 420px;
+      max-width: 90%;
+    }
+    .branch-title {
+      color: #1e90ff;
+      font-size: 22px;
+      margin: 30px 0 20px;
+    }
+    .branch-list p {
+      margin: 8px 0;
+      font-size: 15px;
+    }
+    .branch-list .branch-1 {
+      color: red;
+     
+    }
+    .branch-list .underline {
+      text-decoration: underline;
+    }

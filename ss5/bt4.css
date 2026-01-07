@@ -1,0 +1,24 @@
+*{
+    background-color: aliceblue;
+}
+.section-title {
+            text-align: center;
+            color: #1e90ff;
+            font-size: 22px;
+            font-weight: bold;
+        }
+        .section-content {
+            max-width: 900px;
+            margin: 0 auto 30px auto;
+            color: #333;
+            line-height: 1.6;
+        }
+        .contact-text {
+            font-size: 14px;
+            color: #333;
+            margin-bottom: 5px;
+        }
+
+        .contact-text strong {
+            font-weight: bold;
+        }
