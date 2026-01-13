@@ -20,14 +20,19 @@ font-weight: bold;
 .navbar a{
     margin:15px 0;
 }
+navbar a:hover{
+    background-color: #e6f5f0;  
+    color: #06e09f;              
+    border-left: 4px solid  #06e09f;
+}
 .image{
+    width: 100%;
     padding-top: 20px;
     text-align: center;
     background-color: rgb(236, 236, 240);
 }
 .content {
     width: 100%;
-    
     background-color: #ffffff;
     padding: 20px 30px;
     border: 1px solid #ddd;

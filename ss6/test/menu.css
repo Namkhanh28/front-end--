@@ -18,6 +18,9 @@ background-color: #fed7aa;
 .Navbar a{
     background-color: #fed7aa;
 }
+.Navbar a:hover{
+    background-color: #fed7aa;
+}
 .image{
     text-align: center;
 }
@@ -33,8 +36,8 @@ background-color: #fed7aa;
 }
 .service ul li {
     background-color: #e6f5f0;
+    color: black;
 }
-
 .service ul li:hover {
     background-color: #e6f5f0;  
     color: #fed7aa;              
