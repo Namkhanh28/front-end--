@@ -1,0 +1,52 @@
+
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.Header h1{
+ 
+ text-align: center;
+ font-size: 20px ;
+ padding-top: 15px;
+ background-color: aquamarine;
+ color: rgb(78, 74, 74);
+}
+.navbar {
+padding: 1px;px;
+background-color: rgb(233, 233, 240);
+text-align: center;
+font-size: 15px;
+font-weight: bold;
+}
+.navbar a{
+    margin:15px 0;
+}
+
+.service-table {
+    width: 90%;
+    margin: 30px auto;
+    border-collapse: collapse;
+}
+
+
+.service-table th,
+.service-table td {
+    border: 1px solid #3f4e6a;
+    padding: 15px;
+}
+
+.service-table th {
+    background-color: #bfe9ff;
+    color: #003f7f;
+    text-align: center;
+}
+.service-table tr:hover td {
+    background-color: #e6f7f4;   
+    color: #0b6f5c;
+}
+
+
+.service-table tr {
+    cursor: pointer;
+}
