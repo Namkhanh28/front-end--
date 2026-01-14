@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.service-card{
+    height: 120px;
+    width: 300px;
+    border: 2px solid #1eff29 ;
+    text-align: center;
+    border-radius: 10px;
+}
+.service-card .item1{
+    text-align: center;
+    padding: 25px ;
+    font-size: 24px;
+    font-weight: bold;
+}
+.service-card .item2{
+    position: relative;
+    bottom : 10px;
+    text-align: center;
+    font-style: italic;
+    font-size: 16px;
+}
+
+

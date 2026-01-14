@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    display:flex;
+}
+.box1{
+    border: 1px solid;
+    width: 20px;
+    height: 20px;
+    background-color: blue;
+    font-size: 15pt;
+}
+.box2{
+     border: 1px solid;
+    width: 20px;
+    height: 20px;
+    background-color: blue;
+    font-size: 15pt;
+}
+.box3{
+     border: 1px solid;
+    width: 20px;
+    height: 20px;
+    background-color: blue;
+    font-size: 15pt;
+}
+.box4{
+     border: 1px solid;
+    width: 20px;
+    height: 20px;
+    background-color: blue;
+    font-size: 15pt;
+}
