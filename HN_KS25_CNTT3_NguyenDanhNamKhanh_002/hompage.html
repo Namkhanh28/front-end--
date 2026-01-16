@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=widthhed, initial-scale=1.0" />
+    <title>Cẩm nang lập trình</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="menu">
+        <a href="#">🧑‍💻Giới thiệu</a>
+        <a href="#">📚Lộ trình học</a>
+        <a href="#">📝Đăng kí tư vấn</a>
+        <a href="#">📞 Liên hệ</a>
+      </nav>
+    </header>
+    <div class="banner">
+      <h1>Cẩm nang lập trình</h1>
+      <p>Học lập trình từ con số 0</p>
+      <div class="submit">Đăng kí tư vấn</div>
+    </div>
+    <div class="container">
+      <h1>Lập trình - Kỹ năng của tương lai</h1>
+      <p>
+        Trong thời đại số hóa mạnh mẽ như hiện nay, lập trình đã trở thành một
+        trong những kỹ năng quan trọng nhất, mở ra vô vàn cơ hội nghề nghiệp với
+        mức lương hấp dẫn từ 12-45 triệu đồng/tháng. Từ phát triển website, ứng
+        dụng di động, đến trí tuệ nhân tạo và khoa học dữ liệu - tất cả đều cần
+        đến lập trình viên. Không cần bằng cấp cao hay kinh nghiệm trước đó, bạn
+        hoàn toàn có thể bắt đầu từ con số 0 và trở thành lập trình viên chuyên
+        nghiệp chỉ trong 6-12 tháng. Với lộ trình học rõ ràng từ HTML/CSS cơ bản
+        đến Full-Stack Developer, cùng sự hỗ trợ tận tình từ đội ngũ giảng viên
+        có kinh nghiệm thực tế, bạn sẽ nhanh chóng chinh phục ước mơ làm IT.
+      </p>
+      <br>
+       <div class="card">
+        ✅ Học thực hành 100% - Lộ trình rõ ràng - Cam kết đầu ra
+      </div>
+    </div>
+   
+
+    <div id="course" class="table-section">
+      <h2>Lộ trình học Full-Stack Developer</h2>
+      <p>Con đường trở thành lập trình viên Full-Stack trong 6-12 tháng</p>
+      <table  class="price-table">
+        <thead>
+          <tr>
+            <th>Bước</th>
+            <th>Nội dung</th>
+            <th>Thời gian</th>
+            <th>Công cụ/Ngôn ngữ</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>1</strong></td>
+            <td>Nền tảng Web - HTML/CSS</td>
+            <td>1-2 tháng</td>
+            <td>HTML5, CSS3, Responsive Design</td>
+          </tr>
+          <tr>
+            <td><strong>2</strong></td>
+            <td>JavaScript cơ bản & nâng cao</td>
+            <td>2-3 tháng</td>
+            <td>ES6+, DOM, API, Async/Await</td>
+          </tr>
+          <tr>
+            <td><strong>3</strong></td>
+            <td>Frontend Framework</td>
+            <td>2 tháng</td>
+            <td>React.js hoặc Vue.js</td>
+          </tr>
+          <tr>
+            <td><strong>4</strong></td>
+            <td>Backend Development</td>
+            <td>2-3 tháng</td>
+            <td>Node.js, Express, RESTful API</td>
+          </tr>
+          <tr>
+            <td><strong>5</strong></td>
+            <td>Database & Deployment</td>
+            <td>1-2 tháng</td>
+            <td>MongoDB/MySQL, Docker, AWS/Heroku</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div id="tuvan" class="form-section">
+      <h2>Đăng ký nhận tư vấn miễn phí</h2>
+      <p>
+        Để lại thông tin để chúng tôi tư vấn lộ trình học phù hợp nhất cho bạn
+      </p>
+      <form class="contact-form">
+        <label for="name">Họ và tên *</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Nguyễn Văn A"
+          required
+        />
+
+        <label for="email">Email *</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="example@gmail.com"
+          required
+        />
+
+        <label for="phone">Số điện thoại *</label>
+        <input
+          type="tel"
+          id="phone"
+          name="phone"
+          placeholder="0123456789"
+          required
+        />
+
+        <label>Giới tính *</label>
+        <div class="radio-group">
+          <label class="radio-label">
+            <input type="radio" name="gender" value="nam" required />
+            <span>Nam</span>
+          </label>
+          <label class="radio-label">
+            <input type="radio" name="gender" value="nu" />
+            <span>Nữ</span>
+          </label>
+          <label class="radio-label">
+            <input type="radio" name="gender" value="khac" />
+            <span>Khác</span>
+          </label>
+        </div>
+
+        <label for="message">Mục tiêu học tập của bạn *</label>
+        <textarea
+          id="message"
+          name="message"
+          rows="6"
+          placeholder="Ví dụ: Tôi muốn học lập trình để chuyển nghề, tìm việc IT..."
+          required
+        ></textarea>
+
+        <button type="submit" class="submit-btn">Gửi đăng ký</button>
+      </form>
+    </div>
+    <div id="service" class="contact">
+            <h2>Liên hệ với chúng tôi</h2>
+            <p>Hãy liên hệ để được tư vấn chi tiết về khóa học và lộ trình phù hợp</p>
+            <div class="contact-info">
+                <p>📍 Địa chỉ: 123 Nguyễn Huệ, Quận 1, TP.HCM</p>
+                <p>📞 Hotline: 0337 610 701</p>
+                <p>📧 Email: contact@camnanglaptrinhh.com</p>
+                <p>🕒 Giờ làm việc: 8:00 - 21:00 (T2-CN)</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+      <p>© 2026 Cẩm Nang Lập Trình - Nơi khởi đầu sự nghiệp IT của bạn</p>
+      <p>Học thực chiến | Có việc làm | Hỗ trợ trọn đời</p>
+    </footer>
+  </body>
+</html>
