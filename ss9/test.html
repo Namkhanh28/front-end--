@@ -1,0 +1,312 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Bún Chả Hà Nội</title>
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Quicksand:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      /* RESET */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Quicksand", sans-serif;
+        background: #fff8f0;
+        color: #3c2f2f;
+      }
+
+      a {
+        text-decoration: none;
+        color: inherit;
+      }
+
+      /* ========== HEADER (F01) ========== */
+      header {
+        position: sticky;
+        top: 0;
+        background: #fff8f0;
+        padding: 16px 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+        z-index: 10;
+      }
+
+      .logo {
+        font-family: "Playfair Display", serif;
+        font-size: 26px;
+        color: #e76f51;
+      }
+
+      nav {
+        display: flex;
+        gap: 30px;
+      }
+
+      nav a:hover,
+      nav a:focus {
+        color: #e76f51;
+      }
+
+      .btn-book {
+        background: #e76f51;
+        color: #fff;
+        padding: 10px 18px;
+        border-radius: 20px;
+        font-weight: 600;
+      }
+
+      /* ========== HERO (F02) ========== */
+      .hero {
+        height: 80vh;
+        background:
+          linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+          url("https://images.unsplash.com/photo-1604908177522-b4f90c40a1b4");
+        background-size: cover;
+        background-position: center;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .hero-content {
+        text-align: center;
+        color: #fff;
+
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+      }
+
+      .hero-content h1 {
+        font-family: "Playfair Display", serif;
+        font-size: 48px;
+      }
+
+      .hero-content p {
+        font-size: 18px;
+      }
+
+      .hero-content a {
+        align-self: center;
+        background: #e76f51;
+        padding: 12px 28px;
+        border-radius: 25px;
+        font-weight: 600;
+      }
+
+      /* ========== MENU NỔI BẬT (F03) ========== */
+      .featured {
+        padding: 80px 60px;
+      }
+
+      .featured h2 {
+        font-family: "Playfair Display", serif;
+        font-size: 32px;
+        margin-bottom: 40px;
+        text-align: center;
+      }
+
+      .featured-list {
+        display: flex;
+        gap: 30px;
+      }
+
+      .food-card {
+        background: #fff;
+        border-radius: 16px;
+        overflow: hidden;
+
+        display: flex;
+        flex-direction: column;
+        flex: 1; /* các card cao bằng nhau */
+      }
+
+      .food-card img {
+        height: 200px;
+        object-fit: cover;
+        width: 100%;
+      }
+
+      .food-info {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        flex-grow: 1;
+      }
+
+      .food-info h3 {
+        font-size: 20px;
+      }
+
+      .price {
+        color: #e76f51;
+        font-weight: 600;
+      }
+
+      /* ========== THỰC ĐƠN ĐẦY ĐỦ (F04) ========== */
+      .menu-full {
+        padding: 80px 60px;
+        background: #fff;
+      }
+
+      .menu-full h2 {
+        font-family: "Playfair Display", serif;
+        font-size: 32px;
+        text-align: center;
+        margin-bottom: 40px;
+      }
+
+      .menu-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+      }
+
+      .menu-item {
+        width: 48%;
+        background: #fff8f0;
+        padding: 14px 20px;
+        border-radius: 12px;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      /* ========== FOOTER (F05) ========== */
+      footer {
+        background: #3c2f2f;
+        color: #fff;
+        padding: 60px;
+        display: flex;
+        gap: 40px;
+      }
+
+      .footer-col {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+      }
+
+      footer h3 {
+        font-family: "Playfair Display", serif;
+        color: #e76f51;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <div class="logo">Bún Chả Hà Nội</div>
+      <nav>
+        <a href="#">Trang chủ</a>
+        <a href="#">Thực đơn</a>
+        <a href="#">Giới thiệu</a>
+        <a href="#">Liên hệ</a>
+      </nav>
+      <a href="#" class="btn-book">Đặt bàn ngay</a>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Bún Chả Hà Nội</h1>
+        <p>Hương vị truyền thống – Đậm đà bản sắc Việt</p>
+        <a href="#">Xem thực đơn</a>
+      </div>
+    </section>
+
+    <!-- MENU NỔI BẬT -->
+    <section class="featured">
+      <h2>Món Nổi Bật</h2>
+
+      <div class="featured-list">
+        <div class="food-card">
+          <img
+            src="https://images.unsplash.com/photo-1627308595229-7830a5c91f9f"
+          />
+          <div class="food-info">
+            <h3>Bún Chả Truyền Thống</h3>
+            <span class="price">50.000đ</span>
+            <p>Chả nướng than hoa, nước mắm chua ngọt.</p>
+          </div>
+        </div>
+
+        <div class="food-card">
+          <img
+            src="https://images.unsplash.com/photo-1617093727343-374698b1b08d"
+          />
+          <div class="food-info">
+            <h3>Bún Chả Đặc Biệt</h3>
+            <span class="price">65.000đ</span>
+            <p>Thêm nem cua bể giòn rụm.</p>
+          </div>
+        </div>
+
+        <div class="food-card">
+          <img
+            src="https://images.unsplash.com/photo-1604908177522-b4f90c40a1b4"
+          />
+          <div class="food-info">
+            <h3>Bún Nem Nướng</h3>
+            <span class="price">55.000đ</span>
+            <p>Nem nướng thơm, rau sống tươi.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- THỰC ĐƠN -->
+    <section class="menu-full">
+      <h2>Thực Đơn</h2>
+
+      <div class="menu-list">
+        <div class="menu-item">
+          <span>Bún Chả Truyền Thống</span><span>50.000đ</span>
+        </div>
+        <div class="menu-item">
+          <span>Bún Chả Đặc Biệt</span><span>65.000đ</span>
+        </div>
+        <div class="menu-item">
+          <span>Bún Nem Nướng</span><span>55.000đ</span>
+        </div>
+        <div class="menu-item"><span>Nem Cua Bể</span><span>40.000đ</span></div>
+        <div class="menu-item"><span>Trà Đá</span><span>5.000đ</span></div>
+        <div class="menu-item"><span>Nước Sấu</span><span>15.000đ</span></div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="footer-col">
+        <h3>Về Chúng Tôi</h3>
+        <p>Nhà hàng Bún Chả Hà Nội – gìn giữ hương vị truyền thống.</p>
+      </div>
+
+      <div class="footer-col">
+        <h3>Giờ Mở Cửa</h3>
+        <p>Thứ 2 – CN: 7:00 – 21:00</p>
+      </div>
+
+      <div class="footer-col">
+        <h3>Liên Hệ</h3>
+        <p>📍 Hà Nội</p>
+        <p>☎ 0123 456 789</p>
+      </div>
+    </footer>
+  </body>
+</html>
