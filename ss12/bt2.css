@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f5f7fb;
+    padding: 40px;
+}
+.course-card {
+    background: white;
+    width: 100%;
+    max-width: 360px;
+    border-radius: 12px;
+    box-shadow:  10px 25px rgba(0,0,0,0.08);
+}
+.card-img {
+    height: 180px;
+    background: linear-gradient(135deg, #6b73ff, #8e44ad);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon {
+    font-size: 48px;
+    color: white;
+}
+
+.badge-hot {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background: rgba(255,255,255,0.2);
+    color: white;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 13px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.tag {
+    display: inline-block;
+    background: #eef2ff;
+    color: #4f46e5;
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.card-body h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.card-body p {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+.info {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #555;
+}
+
+.rate {
+    color: #f59e0b;
+}
+.card-footer {
+    border-top: 1px solid #eee;
+    padding: 16px 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.price {
+    font-size: 20px;
+    font-weight: bold;
+    color: #4f46e5;
+}
+
+button {
+    background: #2563eb;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1e40af;
+}
+@media (max-width: 480px) {
+    body {
+        padding: 20px;
+    }
+
+    .course-card {
+        max-width: 100%;
+    }
+
+    .info {
+        flex-direction: column;
+        gap: 6px;
+    }
+
+    .card-footer {
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-start;
+    }
+
+    button {
+        width: 100%;
+    }
+}
