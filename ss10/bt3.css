@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu {
+    display: flex;
+    background-color: #a1bdd7;
+    width: 900px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+.food-name {
+    text-align: center;
+    font-weight: bold;
+}
+img{
+    width: 200px;
+    height: 150px;
+    border-radius: 16px;
+}

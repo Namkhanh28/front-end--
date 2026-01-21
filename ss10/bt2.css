@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu {
+    display: flex;
+    justify-content: space-between; /* dàn đều */
+    width: 90%;
+    margin: auto;
+}
+
+/* Item */
+.food-name {
+    width: 22%;
+    text-align: center;
+}
+
+/* Ảnh */
+.food-name img {
+    width: 100%;
+    border-radius: 12px;
+}
+
+/* Tên món */
+.food-name p {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 14px;
+}

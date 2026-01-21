@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            background-color: #1E1E1E;
+            height: 104.39;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 25px 0;
+        }
+        .container_header{
+            width: 62.5%;
+            /* lấy chiều dài của thẻ này chia cho chiều dài thẻ header ( 1200/1920x100%) */
+            display: flex;
+            justify-content: space-between;
+            padding: 5px 40px;
+            border: 1px solid green;
+        }
+        nav{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 30px;
+            padding: 2px 30px;
+        }
+        nav a{
+            color: #CCCCCC;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container_header">
+            <img src="./icon_B8_ss10.png" alt="">
+            <nav>
+                <a href="">Home</a>
+                <a href="">Menu</a>
+                <a href="">About</a>
+                <a href="">Contact</a>
+            </nav>
+        </div>
+    </header>
+</body>
+</html>
