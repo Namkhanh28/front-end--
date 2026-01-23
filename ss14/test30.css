@@ -1,0 +1,55 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Poppins;
+    background-color: aliceblue;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    color:black;
+}
+.header h1{
+width: 398px;
+height: 48px;
+gap: 20px;
+opacity: 1;
+}
+.header p{
+    font-size: 50px;
+}
+.container2{
+    display: flex;
+}
+.product {
+    display: flex;
+   
+}
+.card {
+width: 1170px;
+height: 704px;
+gap: 60px;
+opacity: 1;
+
+}
+.name {
+font-family: Poppins;
+font-weight: 500px;
+font-style: Medium;
+font-size: 16px;
+line-height: 24px;
+}
+.info {
+
+}
+.price {
+width: 40px;
+height: 24px;
+
+
+}
+.comment {
+}
