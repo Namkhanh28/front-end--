@@ -1,42 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Semantic Layout Demo</title>
+    <link rel="stylesheet" href="./section02.css">
 </head>
 <body>
-    <div class="my-course">
-        <div class="tag">
-            <span class="tag-name">Khóa học phổ biến </span>
-        </div>
-        <h3 class="title">Khám phá khóa học của chúng tôi</h3>
-        <p class="description">
-            Hàng nghìn khóa học chhaats lượng đang chờ bạn 
-        </p>
-        <div class="list-course">
-            <div class="card-course">
-                <div class="background">
 
-                    <span class="tag">Bán chạy</span>
-                </div>
-                <div class="course-info">
-                    <div>
-                        <div class="tag">Lập trình </div>
-                        <div class="star">⭐2.9</div>
-                    </div>
-                    <h3 class="course-name">Lập trình Web Full-Stack</h3>
-                    <p class="course-description">Học lập trình web từ cơ bản đến năng cao với các công nghệ hiện đại nhất</p>
-                    <div >
-                        <time datetime="">
-                            <img src="" alt="">
-                            <span class="count-time">40 giờ</span>
-                        </time>
-                        
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    <!-- HEADER -->
+    <header class="header">
+        <h1>My Learning Website</h1>
+        <p>Nền tảng học tập trực tuyến</p>
+    </header>
+
+    <!-- NAVIGATION -->
+    <nav class="nav">
+        <a href="#">Trang chủ</a>
+        <a href="#">Khóa học</a>
+        <a href="#">Giảng viên</a>
+        <a href="#">Liên hệ</a>
+    </nav>
+
+    <!-- MAIN CONTENT -->
+    <main class="container">
+
+        <!-- CONTENT -->
+        <section class="content">
+            <article class="card">
+                <h2>HTML & CSS Cơ Bản</h2>
+                <p>Học cách xây dựng giao diện web từ số 0.</p>
+            </article>
+
+            <article class="card">
+                <h2>JavaScript Cơ Bản</h2>
+                <p>Làm web động và xử lý logic phía client.</p>
+            </article>
+        </section>
+
+        <!-- SIDEBAR -->
+        <aside class="sidebar">
+            <h3>Danh mục</h3>
+            <ul>
+                <li>Frontend</li>
+                <li>Backend</li>
+                <li>Mobile</li>
+                <li>Data</li>
+            </ul>
+        </aside>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p>© 2026 My Learning Website. All rights reserved.</p>
+    </footer>
+
 </body>
 </html>
