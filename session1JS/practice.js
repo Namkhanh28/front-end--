@@ -12,7 +12,7 @@ console.log("Tên sách:",bookName.toUpperCase());
 // - Tên tác giả: Chuyển thành chữ in hoa.
 console.log("Tên tác giả ",author.toLocaleUpperCase());
 //tạo mã định danh 
-console.log("3 kí tự đầy tên của tác giả ",author.slice(0,3));
+console.log("3 kí tự đầu tên của tác giả ",author.slice(0,3));
 console.log('Năm xuất bản:',publish);
 console.log("Số ngãu nhiên các só từ 1 đến 1000:",Math.ceil(Math.random()*1000));
 
@@ -49,5 +49,16 @@ Tuổi sách: ${bookage}
 Tổng giá trị: ${totalPrice}
     
     `);
+
+//Tạo mã ngẫu nhiên với fomat sau : 
+//lây 3 kí tự cuối trong họ và tên của bản thân 
+//cộng với tháng hiện tại và ngày sinh 
+
+//Nam_11_28
+
+let name ="Nguyễn Danh Nam Khánh";
+let birthday = 11;
+let monthofname =new Date().getMouth()+1;
+console.log(`${nam.slice(-3)}_${monthofname}_${birthday}`);
 
 

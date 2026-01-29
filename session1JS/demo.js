@@ -50,7 +50,7 @@ console.log(`Email=${email},Address=${address}`);
 //Kiểu boolean
 console.log(false);
 //kiểu undefined
-let gander ;
+let gender ;
 console.log("gender:",gender);
 //Kiểu null :KHi khai báo một biến ,nếu chúng ta chưa hay không muốn xác định 
 //trước được giá trị của biến đó thì mực định gán giá trị là null
