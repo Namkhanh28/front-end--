@@ -13,7 +13,7 @@ for (let i = 0; i < studentList.length; i++) {
 }
 for (let i = 0; i < studentList.length; i++) {
   let name = "Nam";
-  let indexName = name.split(";");
+  let indexName = name.split(",");
   for (let i = 0; i < name.length; i++) {
     if (name[i] == name[0]) {
       console.log(name[0]);
