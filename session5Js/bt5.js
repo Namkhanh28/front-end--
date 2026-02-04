@@ -48,11 +48,11 @@ for(let i = 0; i < totalBooks; i++){
 }
 
 if(totalBooks > 0){
-    let minQuantity = quantities[0];
+    let min = quantities[0];
     let index = 0;
     for(let i = 1; i < totalBooks; i++){
-        if(quantities[i] < minQuantity){
-            minQuantity = quantities[i];
+        if(quantities[i] < min){
+            min = quantities[i];
             index = i;
         }
     }
