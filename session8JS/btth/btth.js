@@ -27,7 +27,6 @@ const filterPlayer = (searchPlayer, listPlayer) => {
     console.log(`${findUser[0]} (${findUser[2]} : ${findUser[1]} Goal)`);
   }
 };
-
 let choice;
 const displayMenu = () => {
   choice = Number(
@@ -58,11 +57,17 @@ do {
       filterPlayer(searchName, club);
       break;
     case 3:
+
       break;
+    
     case 5:
+
       break;
 
     default:
+        console.log("");
+        
+
       break;
   }
 } while (choice != 0);
