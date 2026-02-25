@@ -10,7 +10,6 @@ const players = [
 let printUpperplayer =() =>{
     players.forEach(name =>{
         console.log(name.toUpperCase());
-        
     })
 }
 printUpperplayer();

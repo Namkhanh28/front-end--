@@ -11,8 +11,9 @@ const players = [
 const filterPlayersByPosition = (position, players) => {
   players.filter((player) => {
     const playerPosition = player.split(" - ")[1];
-    return playerPosition === position;
-  });
+});
+
+return playerPosition === position;
 };
  const forwards = filterPlayersByPosition("Forward", players);
  const midfielders = filterPlayersByPosition("Midfielder", players);
