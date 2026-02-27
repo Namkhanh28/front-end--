@@ -63,7 +63,6 @@ const getFilteredTotalGoals = (minGoals, teamPlayers) => {
       sum += player.goals;
     }
   }
-
   return sum;
 };
 

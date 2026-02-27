@@ -11,6 +11,7 @@ const addPerformanceScore = (player) => {
   let performancePerMatch = (player.goals + player.assists) / player.matchGame;
   return performancePerMatch;
 };
+
 const isKeyPlayer = (performancePerMatch) => {
   if (performancePerMatch >= 1.0) {
     console.log(true);
@@ -18,5 +19,6 @@ const isKeyPlayer = (performancePerMatch) => {
     console.log(false);
   }
 };
+
 const performance = addPerformanceScore(player);
 isKeyPlayer(performance);
