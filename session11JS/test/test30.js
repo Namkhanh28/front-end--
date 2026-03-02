@@ -48,7 +48,5 @@ const displayProduct=(product)=>{
             Tên sản phầm :${product.name} 
             Giá tiền :${product.price} 
             Loại sản phẩm :${product.category}
-            Tình trạng :${
-                
-            }`);
+           `);
 }
