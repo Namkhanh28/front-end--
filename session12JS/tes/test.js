@@ -38,25 +38,30 @@ let products = [
 
 
 
-function sortOfProduct(danhsach) {
-    let hangcon = danhsach.filter(function(i) {
-    return i.inStock == true;
-});
+// function sortOfProduct(danhsach) {
+//     let hangcon = danhsach.filter(function(i) {
+//     return i.inStock == true;
+// });
 
-let sapxep = hangcon.sort(function(a, b) {
-return b.price- a.price;
-});
-return sapxep;
+// let sapxep = hangcon.sort(function(a, b) {
+// return b.price- a.price;
+// });
+// return sapxep;
+// }
+// sortOfProduct(products);
+// console.log();
+
+// let count = 0;
+// const totalValueProduct = (products) => {
+//   let total = products.price.reduce(max, price);
+//   return total;
+// };
+// console.log(total);
+
+// totalValueProduct(products, price);
+// console.log(totalValueProduct(products, price));
+const filterAnddislaySortProduct=(ListProduct)=>{
+    const newListProductByStock =ListProduct.filter((product)={
+        // return product.inStock == true;
+    })
 }
-sortOfProduct(products);
-console.log();
-
-let count = 0;
-const totalValueProduct = (products) => {
-  let total = products.price.reduce(max, price);
-  return total;
-};
-console.log(total);
-
-totalValueProduct(products, price);
-console.log(totalValueProduct(products, price));

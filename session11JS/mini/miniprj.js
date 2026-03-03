@@ -41,13 +41,11 @@ function updateStudent() {
     alert("Không tìm thấy sinh viên");
     return;
   }
-
   student.name = prompt("Nhập tên mới :");
   student.gpa = Number(prompt("Điểm GPA:"));
 
   alert("Cập nhật thông tin sinh viên thành công ");
 }
-
 function deleteStudent() {
   const id = prompt("Tìm ID sinh viên muốn xóa :");
   const oldLength = students.length;
@@ -91,7 +89,6 @@ function menu() {
 0. Exit
 Hãy nhập lựa chọn của bạn :
 `);
-
     switch (choice) {
       case "1":
         createStudent();
