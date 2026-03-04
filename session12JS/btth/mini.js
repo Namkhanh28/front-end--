@@ -24,9 +24,6 @@ function addWarrior() {
 
   alert("Thêm chiến binh thành công!");
 }
-
-
-
 function deleteWarrior() {
   const name = prompt("Nhập tên chiến binh cần xóa");
 
