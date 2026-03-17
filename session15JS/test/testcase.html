@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Picture</h1>
+    <button id="btn-pre" onclick="prePage()">Ảnh trước</button>
+    <img
+      src="https://cdn-media.sforum.vn/storage/app/media/ctvseo_maihue/hinh-nen-1920-1080/hinh-nen-1920-1080-thumbnail.jpg"
+      alt=""
+      width="400"
+      height="500"
+    />
+
+    <button id="btn-next" onclick="nextPage()">Ảnh sau</button>
+    <script>
+      let picture = [
+        "https://cdn-media.sforum.vn/storage/app/media/ctvseo_maihue/hinh-nen-1920-1080/hinh-nen-1920-1080-thumbnail.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOkKlTNmPNTedyrSzUhVS7tWaLQEfo7AE-SD-NDLmkIt3_kKZH0cvZ7DE&s",
+        "https://i.pinimg.com/736x/aa/80/44/aa8044ca87748268211b4f5a1b91b5ef.jpg",
+      ];
+      let imageElement =document.getElementsByTagName("img");
+      let btnNextElement =document.getElementById("btn-next");
+      let index =1;
+      imageElement.getAttribute("src",picture[0]);
+     const handleChange=()=>{
+        if(index==images.length){
+            index=0;
+        }
+        imageElement.setAttribute("src",picture[0]);
+        index++;
+     }
+     handleChange();
+    </script>
+  </body>
+</html>

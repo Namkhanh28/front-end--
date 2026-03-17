@@ -19,10 +19,7 @@ function printTeamRoster() {
                     " | Vị trí: " + position);
     }
 }
-
-
 let num = parseInt(prompt("Có bao nhiêu cầu thủ cần nhập vào đội bóng?"));
-
 for (let i = 0; i < num; i++) {
     console.log("Nhập cầu thủ " + (i + 1) + ":");
     let id;

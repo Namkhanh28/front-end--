@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Lưu nháp</title>
+  </head>
+  <body>
+    <h2>Viết gì đó...</h2>
+
+    <textarea id="textArea" rows="10" cols="60"></textarea>
+    <br /><br />
+
+    <button onclick="clearDraft()">Xóa nháp</button>
+
+    <script>
+      let textarea = document.getElementById("textArea");
+      let draft = localStorage.getItem("draft");
+
+      if (draft !== null) {
+        textarea.value = draft;
+      }
+      textarea.addEventListener("input", function () {
+        localStorage.setItem("draft", textarea.value);
+      });
+      function clearDraft() {
+        localStorage.removeItem("draft");
+        textarea.value = "";
+      }
+    </script>
+  </body>
+</html>

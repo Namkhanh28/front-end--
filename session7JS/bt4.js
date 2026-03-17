@@ -9,11 +9,8 @@ let players = [
 ];
 function printTeamRoster() {
     console.log("=== DANH SÁCH ĐỘI BÓNG ===");
-
     for (let i = 0; i < players.length; i++) {
-
         let parts = players[i].split("-");
-
         let id = parts[0];
         let name = parts[1];
         let position = parts[2];

@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Quản lý sinh viên</h1>
+    <table border="" id="tablet">
+      <thead>
+        <tr>
+          <th>STT</th>
+          <th>Tên sinh viên</th>
+          <th>Lớp</th>
+          <th>Mã sinh viên</th>
+          <th>Email</th>
+        </tr>
+      </thead>
+      <tbody id="employeeTable"></tbody>
+    </table>
+    <script>
+      let students = [
+        {
+          id: 1,
+          name: "Lê Minh Sơn",
+          className: "CNTT5",
+          email: "son@gmail.com",
+          studentId: "MS01",
+        },
+        {
+          id: 2,
+          name: "Lê Minh Thu",
+          className: "CNTT5",
+          email: "thu@gmail.com",
+          studentId: "MS02",
+        },
+        {
+          id: 3,
+          name: "Lê Minh Huyền",
+          className: "CNTT5",
+          email: "huyen@gmail.com",
+          studentId: "MS03",
+        },
+      ];
+      function display(student) {
+        let table = document.getElementsById("tablet")[0];
+        table.innerHTML = "";
+        students.forEach((student) => {
+          let row = (document.createElement("tr") = `<tr>
+                    <td>${student.index}</td>
+                    <td>${student.name}</td>
+                    <td>${student.className}</td>
+                    <td>${student.email}</td>
+                    <td>${student.studentId}</td>
+                </tr>`);
+          table.innerHTML += row;
+        });
+      }
+      display(students);
+    </script>
+  </body>
+</html>
