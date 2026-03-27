@@ -11,16 +11,14 @@ function displayMovie() {
   list.innerHTML = "";
   movies.forEach(function (movie) {
     let li = document.createElement("li");
-
     li.innerHTML = `
-      <b>${movie.title}</b><br>
-      <small>${movie.desc}</small><br>
-      <button onclick="deleteMovie(${movie.id})">❌ Xóa</button>
+      <b>Tên phim : ${movie.title}</b> 
+      <small>Ghi chú :${movie.desc}</small>
+      <button onclick="deleteMovie(${movie.id})"> X Xóa</button>
     `;
 
     list.appendChild(li);
   });
-
   count.innerText = movies.length;
 }
 saveBtn.addEventListener("click", function () {
@@ -51,7 +49,7 @@ function deleteMovie(id) {
 }
 deleteAllBtn.addEventListener("click", function () {
   movies = [];
-  localStorage.removeItem("movies");
+  localStorage.clear("movies");
   displayMovie();
 });
 displayMovie();
